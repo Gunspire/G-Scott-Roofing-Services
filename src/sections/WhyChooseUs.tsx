@@ -112,8 +112,8 @@ export function WhyChooseUs() {
             <div className="rounded-3xl border border-slate-200 bg-slate-50 shadow-lg overflow-hidden">
               <div className="aspect-[4/5] relative">
                 <img
-                  src="/why-apex-roofing.png"
-                  alt={`${COMPANY.name} project showcase`}
+                  src="/Untitled%20(2).jpg"
+                  alt={`${COMPANY.name} office and fleet`}
                   className="absolute inset-0 h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/35 via-slate-900/10 to-transparent" />
