@@ -27,8 +27,8 @@ function buildSms(opts: {
 }
 
 export function MissedCallTextBackSection() {
-  const [businessName, setBusinessName] = React.useState(COMPANY.name);
-  const [callbackNumber, setCallbackNumber] = React.useState(COMPANY.phoneDisplay);
+  const [businessName, setBusinessName] = React.useState<string>(COMPANY.name);
+  const [callbackNumber, setCallbackNumber] = React.useState<string>(COMPANY.phoneDisplay);
   const [timeframe, setTimeframe] = React.useState("30 minutes");
   const [includeQuoteLink, setIncludeQuoteLink] = React.useState(true);
 
